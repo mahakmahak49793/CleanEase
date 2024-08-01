@@ -1,0 +1,62 @@
+.details a:hover,
+i:hover {
+    color: green;
+}
+
+.details a {
+    font-size: small;
+    color: black;
+    text-decoration: none;
+}
+
+.store-address {
+    display: flex;
+    width: 400px;
+    padding-top: 10px;
+}
+
+.details {
+    padding-top: 10px;
+}
+
+.desc {
+    display: flex;
+    padding-top: 100px;
+}
+
+.useful-links {
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+.useful-links a {
+    color: black;
+    text-decoration: none;
+    font-size: small;
+}
+
+.useful-links a:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.usefulLink {
+    width: 175px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.useful-links li {
+    margin-bottom: 20px;
+    font-size: small;
+}
+
+.copyright {
+    display: flex;
+    font-size: small;
+    color: grey;
+}
+
+.details i:hover {
+    cursor: pointer;
+}
