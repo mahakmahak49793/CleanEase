@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>CleanEase</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./logo.jpg" alt="cleanEase">
+
+        </div>
+        <div class="search-bar">
+            <select>
+        <option value="all">All</option>
+        <!-- Add more options here -->
+    </select>
+            <input type="text" placeholder="What are you shopping for?">
+            <button style="border:none"><img src="searchbar.jpg" alt="Search"></button>
+
+        </div>
+        <div class="user-actions">
+            <div class="icon">
+                <a href="#"><i class="fa-sharp fa-solid fa-heart"></i></a>
+                <span class="badge">0</span>
+            </div>
+            <div class="icon">
+                <a href="login.html"> <i class="fa-solid fa-user"></i></a>
+            </div>
+            <div class="icon">
+                <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                <span class="badge">0</span>
+            </div>
+
+        </div>
+
+
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contactus.html">Contact Us</a>
+        <a href="shop.html">Shop</a>
+    </nav>
+
+
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="signup()">Sign Up</button>
+            </div>
+            <div class="social-icons">
+                <img src="fblogo.jpeg">
+                <img src="googlelogo.png">
+                <img src="twitterlogo.png">
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Log in</button>
+            </form>
+            <form id="signup" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="email" class="input-field" placeholder="Email Id" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+                <button type="submit" class="submit-btn">Sign Up</button>
+            </form>
+        </div>
+
+    </div>
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("signup");
+        var z = document.getElementById("btn");
+
+        function signup() {
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+
+        }
+
+        function login() {
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0px";
+
+        }
+    </script>
+</body>
+
+</html>

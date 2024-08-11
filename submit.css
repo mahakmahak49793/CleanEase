@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: rgb(54, 202, 202);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #b2dfdb;
+}
+
+.thank-you-container {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 3rem auto 5rem auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.thank-you-container:hover {
+    transform: scale(1.02);
+}
+
+.thank-you-container h1 {
+    color: rgb(54, 202, 202);
+    margin-bottom: 1rem;
+}
+
+.thank-you-container p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.home-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: rgb(54, 202, 202);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.home-btn:hover {
+    background-color: rgb(54, 202, 202);
+    transform: translateY(-2px);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(54, 202, 202);
+    color: white;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 9.9rem;
+}
